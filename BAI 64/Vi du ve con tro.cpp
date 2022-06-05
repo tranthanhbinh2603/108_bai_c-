@@ -8,5 +8,5 @@ int main()
     *p = 100;
     cout << "At " << p << " "; //Mot chuoi that ki la
     cout << "is the value " << *p << "\n"; //Gia tri cua p
-    //delete p;
+    delete p; //Khong can huy cung duoc
 }
